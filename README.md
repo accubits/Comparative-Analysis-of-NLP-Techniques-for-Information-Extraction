@@ -11,6 +11,7 @@ Python3.6,
 spacy,
 gensim,
 sklearn,
+nltk,
 distance,
 re,
 glob and
