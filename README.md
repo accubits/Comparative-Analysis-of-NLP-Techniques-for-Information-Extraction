@@ -1,4 +1,4 @@
-# Question-Answering
+# Comparative Analysis of NLP Techniques for Question Answering
 This repo helps to directly extract answers from pdf documents when a query is asked.
 
 # Algorithm Used
