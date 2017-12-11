@@ -41,7 +41,7 @@ def indexTFIDF(doc):
     sim = similarity[0].tolist()
     refined = sorted(range(len(sim)), key=lambda i: sim[i])[-3:]
     sim = sorted(((value, index) for index, value in enumerate(sim)), reverse=True)[:3]
-    refined = [i[1] for i in sim if i[0] > 0.07]
+    refined = [i[1] for i in sim if i[0] > 0.1]
     refined.remove(0)
     refined[:] = [i-1 for i in refined]
     return refined   
